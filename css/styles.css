@@ -30,6 +30,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logoblack {
   color: var(--text-color-title);
@@ -38,6 +39,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   text-transform: uppercase;
+  text-decoration: none;
 }
 .logowhite {
   color: var(--secondary-backgroud-color);
@@ -46,6 +48,7 @@ body {
   font-size: 18px;
   line-height: 1.33;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* navigation */
@@ -54,6 +57,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 .navigation .link-nav:hover,
 .navigation .link-nav:focus {
@@ -68,6 +72,7 @@ body {
   color: var(--primary-text-color);
   font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 .address .link-address:hover,
 .address .link-address:focus {
@@ -126,6 +131,10 @@ body {
 }
 
 /* BUTTON */
+
+.button {
+  cursor: pointer;
+}
 .button.primary {
   color: var(--primary-background-color);
   background-color: var(--accent-text-and-button-color);
@@ -155,6 +164,9 @@ body {
   background-color: var(--accent-text-and-button-color);
 }
 
+.works-link {
+  text-decoration-line: none;
+}
 /* FOOTER */
 .footer-text {
   color: var(--footer-text-color);
