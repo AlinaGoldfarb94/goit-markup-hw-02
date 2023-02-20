@@ -17,7 +17,6 @@ body {
   background-color: var(--primary-background-color);
   color: var(--primary-text-color);
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   letter-spacing: 0.02em;
 }
 
@@ -73,6 +72,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   text-decoration: none;
+  font-style: normal;
 }
 .address .link-address:hover,
 .address .link-address:focus {
@@ -135,17 +135,8 @@ body {
 .button {
   cursor: pointer;
 }
-.button.primary {
-  color: var(--primary-background-color);
-  background-color: var(--accent-text-and-button-color);
-  font-family: inherit;
-  letter-spacing: 0.04em;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-}
 
-.button.secondary {
+.button.portfolio {
   color: var(--accent-text-and-button-color);
   background-color: var(--secondary-backgroud-color);
   font-family: inherit;
@@ -154,9 +145,20 @@ body {
   line-height: 1.5;
 }
 
+.button.portfolio:hover,
+.button.portfolio:focus {
+  background-color: var(--accent-text-and-button-color);
+  color: var(--text-color-title-hero);
+}
+
 .button.hero {
   color: var(--text-color-title-hero);
   background-color: var(--button-hero-and-logo-blue);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
 }
 
 .button.hero:hover,
@@ -164,6 +166,11 @@ body {
   background-color: var(--accent-text-and-button-color);
 }
 
+.button.primary,
+
+
+
+}
 .works-link {
   text-decoration-line: none;
 }
